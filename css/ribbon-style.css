@@ -1,0 +1,216 @@
+.pricing-table .plan .ribbon {
+    position: absolute;
+    font: 700 12px/22px Arial;
+    color: #fff;
+    padding: 1px 15px;
+    text-align: center;
+    -moz-transform-origin: 0 0;
+    -moz-transform: rotate(45deg);
+    -moz-box-shadow: 0px 1px 6px 0px rgb(60, 60, 60);
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: rotate(45deg);
+    -webkit-box-shadow: 0px 1px 6px 0px rgb(60, 60, 60);
+    -ms-transform-origin: 0 0;
+    -ms-transform: rotate(45deg);
+    -ms-box-shadow: 0px 1px 6px 0px rgb(60, 60, 60);
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+    box-shadow: 0px 1px 6px 0px rgb(60, 60, 60);
+}
+
+.pricing-table .plan .ribbon.small {
+    right: -72px;
+    top: -34px;
+    width: 90px;
+}
+
+.pricing-table .plan .ribbon.big {
+    right: -60px;
+    top: -22px;
+    width: 90px;
+}
+
+.pricing-table .plan .turquoise {
+	text-shadow: 1px 2px 2px rgb(5, 68, 66);
+    /*Gradient*/
+    background: rgb(1,228,219); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(3, 209, 201, 1) 0%, rgba(0,138,133,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(3, 209, 201, 1)), color-stop(100%,rgba(0,138,133,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(3, 209, 201, 1) 0%,rgba(0,138,133,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(3, 209, 201, 1) 0%,rgba(0,138,133,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(3, 209, 201, 1) 0%,rgba(0,138,133,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(3, 209, 201, 1) 0%,rgba(0,138,133,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .very-dark-blue {
+	text-shadow: 1px 2px 2px rgb(27, 27, 27);
+    /*Gradient*/
+    background: #2271a5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2271a5 0%, #003e5c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2271a5), color-stop(100%,#003e5c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #2271a5 0%,#003e5c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #2271a5 0%,#003e5c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #2271a5 0%,#003e5c 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #2271a5 0%,#003e5c 100%); /* W3C */
+}
+
+.pricing-table .plan .white {
+	color: rgb(105, 105, 105);
+	text-shadow: 1px 2px 2px rgb(200, 200, 200);
+    background: rgb(247,247,247);
+}
+
+.pricing-table .plan .yellow {
+	text-shadow: 1px 2px 2px rgb(124, 80, 2);
+    /*Gradient*/
+    background: rgb(252,217,0); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(252,217,0,1) 0%, rgba(224,149,17,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,217,0,1)), color-stop(100%,rgba(224,149,17,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(252,217,0,1) 0%,rgba(224,149,17,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(252,217,0,1) 0%,rgba(224,149,17,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(252,217,0,1) 0%,rgba(224,149,17,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(252,217,0,1) 0%,rgba(224,149,17,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .red {
+	text-shadow: 1px 2px 2px rgb(107, 1, 0);
+    /*Gradient*/
+    background: rgb(237,38,35); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(237,38,35,1) 0%, rgba(186,1,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,38,35,1)), color-stop(100%,rgba(186,1,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(237,38,35,1) 0%,rgba(186,1,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(237,38,35,1) 0%,rgba(186,1,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(237,38,35,1) 0%,rgba(186,1,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(237,38,35,1) 0%,rgba(186,1,0,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .pink {
+	text-shadow: 1px 2px 2px rgb(88, 9, 33);
+    /*Gradient*/
+    background: rgb(63,136,195); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(255, 113, 157) 0%, rgb(192, 43, 88) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255, 113, 157)), color-stop(100%,rgb(192, 43, 88))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(255, 113, 157) 0%,rgb(192, 43, 88) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(255, 113, 157) 0%,rgb(192, 43, 88) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(255, 113, 157) 0%,rgb(192, 43, 88) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(255, 113, 157) 0%,rgb(192, 43, 88) 100%); /* W3C */
+}
+
+.pricing-table .plan .orange {
+	text-shadow: 1px 2px 2px rgb(129, 41, 0);
+    /*Gradient*/
+    background: rgb(247,175,65); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(247,175,65,1) 0%, rgba(236,111,1,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,175,65,1)), color-stop(100%,rgba(236,111,1,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(247,175,65,1) 0%,rgba(236,111,1,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(247,175,65,1) 0%,rgba(236,111,1,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(247,175,65,1) 0%,rgba(236,111,1,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(247,175,65,1) 0%,rgba(236,111,1,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .olive {
+	text-shadow: 1px 2px 2px rgb(50, 50, 50);
+    /*Gradient*/
+    background: rgb(127,148,10); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(127,148,10,1) 0%, rgba(80,85,1,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(127,148,10,1)), color-stop(100%,rgba(80,85,1,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(127,148,10,1) 0%,rgba(80,85,1,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(127,148,10,1) 0%,rgba(80,85,1,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(127,148,10,1) 0%,rgba(80,85,1,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(127,148,10,1) 0%,rgba(80,85,1,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .lime {
+	text-shadow: 1px 2px 2px rgb(65, 70, 10);
+    /*Gradient*/
+    background: rgb(212,219,24); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(212,219,24,1) 0%, rgba(163,173,48,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(212,219,24,1)), color-stop(100%,rgba(163,173,48,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(212,219,24,1) 0%,rgba(163,173,48,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(212,219,24,1) 0%,rgba(163,173,48,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(212,219,24,1) 0%,rgba(163,173,48,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(212,219,24,1) 0%,rgba(163,173,48,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .ice-blue {
+	color: rgb(105, 105, 105);
+	text-shadow: 1px 2px 2px rgb(255, 255, 255);
+    /*Gradient*/
+    background: rgb(213,241,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(213,241,255,1) 0%, rgba(117,195,236,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(213,241,255,1)), color-stop(100%,rgba(117,195,236,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(213,241,255,1) 0%,rgba(117,195,236,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(213,241,255,1) 0%,rgba(117,195,236,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(213,241,255,1) 0%,rgba(117,195,236,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(213,241,255,1) 0%,rgba(117,195,236,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .grey {
+	color: #fff;
+	text-shadow: 1px 2px 2px rgb(50, 50, 50);
+    /*Gradient*/
+    background: rgb(63,136,195); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(230, 230, 230) 0%, rgb(204, 204, 204) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(230, 230, 230)), color-stop(100%,rgb(204, 204, 204))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(230, 230, 230) 0%,rgb(204, 204, 204) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(230, 230, 230) 0%,rgb(204, 204, 204) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(230, 230, 230) 0%,rgb(204, 204, 204) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(230, 230, 230) 0%,rgb(204, 204, 204) 100%); /* W3C */
+}
+
+.pricing-table .plan .brown {
+	text-shadow: 1px 2px 2px rgb(27, 9, 4);
+	background: rgb(63,136,195); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(117, 75, 53) 0%, rgb(60, 22, 11) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(117, 75, 53)), color-stop(100%,rgb(60, 22, 11))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(117, 75, 53) 0%,rgb(60, 22, 11) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(117, 75, 53) 0%,rgb(60, 22, 11) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(117, 75, 53) 0%,rgb(60, 22, 11) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(117, 75, 53) 0%,rgb(60, 22, 11) 100%); /* W3C */
+}
+
+.pricing-table .plan .black {
+	text-shadow: 1px 2px 2px rgb(0, 0, 0);
+	background: rgb(107,107,107); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(107,107,107,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(107,107,107,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(107,107,107,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(107,107,107,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(107,107,107,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(107,107,107,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .dark-blue {
+	text-shadow: 1px 2px 2px #003e5c;
+	background: rgb(63,136,195); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(63,136,195,1) 0%, rgba(45,89,139,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(63,136,195,1)), color-stop(100%,rgba(45,89,139,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(63,136,195,1) 0%,rgba(45,89,139,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(63,136,195,1) 0%,rgba(45,89,139,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(63,136,195,1) 0%,rgba(45,89,139,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(63,136,195,1) 0%,rgba(45,89,139,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .dark-green {
+	text-shadow: 1px 2px 2px rgb(37, 71, 7);
+    /*Gradient*/
+    background: -moz-linear-gradient(top,  rgba(139,211,71,1) 0%, rgba(80,141,23,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(139,211,71,1)), color-stop(100%,rgba(80,141,23,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(139,211,71,1) 0%,rgba(80,141,23,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(139,211,71,1) 0%,rgba(80,141,23,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(139,211,71,1) 0%,rgba(80,141,23,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(139,211,71,1) 0%,rgba(80,141,23,1) 100%); /* W3C */
+}
+
+.pricing-table .plan .dark-purple {
+	text-shadow: 1px 2px 2px rgb(52, 38, 54);
+    /*Gradient*/
+    background: rgb(163,133,169); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(163,133,169,1) 0%, rgba(84,57,102,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(163,133,169,1)), color-stop(100%,rgba(84,57,102,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(163,133,169,1) 0%,rgba(84,57,102,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(163,133,169,1) 0%,rgba(84,57,102,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(163,133,169,1) 0%,rgba(84,57,102,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(163,133,169,1) 0%,rgba(84,57,102,1) 100%); /* W3C */
+}
+

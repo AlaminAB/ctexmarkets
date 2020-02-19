@@ -1,0 +1,592 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .dashboard--padding--container {
+        padding: 100px 70px;
+    }
+
+    .logo>a {
+        display: inline-block;
+        max-width: 100px;
+    }
+
+    .dashboard--padding--container--fluid {
+        padding: 106px 30px;
+    }
+
+    .configuration--box {
+        padding: 0;
+    }
+
+    .config-row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .membership--padding {
+        padding-right: 30px;
+    }
+
+    .referral--header {
+        width: 70%;
+    }
+
+    .referral--header__box::before {
+        width: 78%;
+    }
+
+    .logo {
+        top: -25px;
+    }
+
+    .currency-nav-item {
+        font-size: 18px;
+    }
+
+    .section--title>h3 {
+        font-size: 20px;
+    }
+
+    .referral--header .currency-nav-item {
+        font-size: 15px;
+    }
+
+    .dashboard--margin {
+        margin-left: 300px;
+    }
+
+    .sidebar--positions {
+        min-width: 365px;
+        padding-left: 0;
+        padding-right: 10.5px;
+    }
+
+    .trans--arrow>.form-box,
+    .trans--arrow>input {
+        font-size: 12px;
+    }
+
+    .menu--text {
+        padding-right: 10px;
+    }
+
+    .menu-link {
+        font-size: 17px;
+        padding: 20px 0 20px 50px;
+    }
+
+    .membership--table--area {
+        overflow-y: auto;
+    }
+
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .sidebar--positions {
+        min-width: 360px;
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+    .dashboard--padding--container {
+        padding: 100px 15px;
+    }
+
+    .dashboard--margin {
+        margin-left: 300px;
+    }
+
+    .menu--text::before {
+        left: 90%;
+    }
+
+    .menu-link {
+        font-size: 16px;
+    }
+
+    .menu--item {
+        margin-bottom: 15px;
+    }
+
+    .wallet--box {
+        padding: 30px 20px 27px 20px;
+    }
+
+    .wallet-btn {
+        font-size: 14px;
+    }
+
+    .dashboard--padding--container--fluid {
+        padding: 106px 30px;
+    }
+
+    .configuration--box {
+        padding: 0;
+    }
+
+    .config-row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .kyc--row {
+        margin-left: -15px;
+    }
+
+    .kyc--padding {
+        padding: 0 15px;
+    }
+
+    .membership--padding {
+        padding-right: 30px;
+    }
+
+    .referral--header {
+        width: 55%;
+    }
+
+    .referral--header__box::before {
+        width: 68%;
+    }
+
+    .logo {
+        top: -25px;
+        right: 35px;
+    }
+
+    .currency-nav-item {
+        font-size: 16px;
+    }
+
+    .trans--form label {
+        font-size: 14px;
+    }
+
+    .trans--arrow>.form-box,
+    .trans--arrow>input {
+        font-size: 13px;
+    }
+
+    .membership--table--area {
+        overflow-y: auto;
+    }
+
+    .membership-table td,
+    .membership-table th {
+        font-size: 12px;
+    }
+
+    .section--title>h3 {
+        font-size: 20px;
+    }
+
+    .referral--header {
+        width: 68%;
+    }
+
+    .referral--header .currency-nav-item {
+        font-size: 13px;
+    }
+
+    .referral--header .currency-nav-item {
+        padding-right: 5px;
+        margin-right: 5px;
+    }
+
+    .config-link {
+        padding: 40px 10px;
+    }
+
+    .config--title {
+        font-size: 14px;
+    }
+
+    .kyc--content>h6 {
+        font-size: 14px;
+    }
+
+    .kyc__form--input {
+        padding-left: 125px;
+        font-size: 14px;
+    }
+
+    .kyc__form--input::-webkit-input-placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--input::-moz-placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--input:-ms-input-placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--input::-ms-input-placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--input::placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--button {
+        font-size: 14px;
+    }
+
+    .table-timeline tr {
+        margin-bottom: 16px;
+    }
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .sidebar--positions {
+        position: relative;
+    }
+
+    .dashboard--margin {
+        margin-left: 0;
+    }
+
+    .dashboard--padding--container {
+        padding: 100px 30px;
+    }
+
+    .logo>a {
+        display: inline-block;
+        max-width: 100px;
+    }
+
+    .logo>a>img {
+        width: 100%;
+    }
+
+    .dashboard--bg {
+        height: 100%;
+    }
+
+    .dashboard--padding--container--fluid {
+        padding: 106px 30px;
+    }
+
+    .kyc--box {
+        padding: 35px 30px;
+    }
+
+    .kyc--row {
+        margin-left: -15px;
+    }
+
+    .kyc--padding {
+        padding: 0 15px;
+    }
+
+    .referral--header {
+        width: 55%;
+    }
+
+    .referral--header__box::before {
+        width: 66%;
+    }
+
+    .wallet-btn {
+        font-size: 14px;
+    }
+
+    .currency-nav-item {
+        padding-right: 10px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .logo {
+        top: 0;
+        right: 30px;
+    }
+
+    .membership--table--area {
+        overflow-y: auto;
+    }
+
+    .trans--arrow>.form-box,
+    .trans--arrow>input {
+        font-size: 13px;
+    }
+
+    .membership--table--area {
+        overflow-y: auto;
+    }
+
+    .membership-table td,
+    .membership-table th {
+        font-size: 12px;
+    }
+
+    body .modal .modal-dialog {
+        max-width: 578px;
+        margin: 10.7rem auto;
+    }
+
+    .custom-design .modal-dialog {
+        left: 0;
+    }
+
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .sidebar--positions {
+        position: relative;
+    }
+
+    .dashboard--margin {
+        margin-left: 0;
+    }
+
+    .dashboard--padding--container {
+        padding: 100px 30px;
+    }
+
+    .logo>a {
+        display: inline-block;
+        max-width: 100px;
+    }
+
+    .logo>a>img {
+        width: 100%;
+    }
+
+    .sidebar--positions {
+        position: relative;
+        min-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .latest-news {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .currency-nav-item>span {
+        font-size: 14px;
+    }
+
+    .currency-nav-item {
+        padding-right: 0;
+        border-right: 0px solid #2F274F;
+        margin-right: 0;
+    }
+
+    .menu-link {
+        font-size: 16px;
+        padding: 15px 0 20px 60px;
+    }
+
+    .wallet--title {
+        font-size: 18px;
+    }
+
+    .logo {
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .user--panel {
+        padding-top: 30px;
+    }
+
+    .menu--navbar {
+        padding: 20px 0;
+    }
+
+    .dashboard--bg {
+        height: 100%;
+    }
+
+    .dashboard--padding--container--fluid {
+        padding: 106px 15px;
+    }
+
+    .config-row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .configuration--box {
+        padding: 0;
+    }
+
+    .kyc--box {
+        padding: 35px 30px;
+    }
+
+    .kyc--row {
+        margin-left: -15px;
+    }
+
+    .kyc--padding {
+        padding: 0 15px;
+    }
+
+    #tabledivhistory .table td,
+    #tabledivhistory .table th {
+        min-width: 33%;
+    }
+
+    .updated-design thead {
+        display: block;
+    }
+
+    .currency-nav-item {
+        font-size: 16px;
+    }
+
+    body .modal .modal-dialog {
+        max-width: 300px;
+        margin: 4.7rem auto;
+    }
+
+    .custom-design .modal-dialog {
+        left: 0;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    .kyc--content>h6 {
+        font-size: 14px;
+    }
+
+    .kyc__form--input {
+        padding-left: 125px;
+        font-size: 14px;
+    }
+
+    .kyc__form--input::-webkit-input-placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--input::-moz-placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--input:-ms-input-placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--input::-ms-input-placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--input::placeholder {
+        font-size: 13px;
+    }
+
+    .kyc__form--button {
+        font-size: 14px;
+    }
+
+    .membership-table thead th,
+    .membership-table tbody tr td {
+        -ms-flex: 0 0 30%;
+        -webkit-box-flex: 0;
+        flex: 0 0 30%;
+        max-width: 100%;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .portfolio--table__wrapper2 {
+        overflow-y: auto;
+    }
+
+    .membership-table tbody tr.profile-management-row2 td {
+        -ms-flex: 0 0 60%;
+        -webkit-box-flex: 0;
+        flex: 0 0 60%;
+        max-width: 100%;
+    }
+
+    .portfolio--table__wrapper2 {
+        padding: 20px 20px;
+    }
+
+    .table-timeline tr {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .table-timeline {
+        top: 117px;
+    }
+
+    .portfolio__bar--chart--wrapper {
+        padding: 15px 0;
+    }
+    .form-wrapper input::placeholder {
+        font-size: 13px;
+    }
+    .form-wrapper .form-horizontal {
+        padding: 0px;
+    }
+
+
+
+
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 767px) and (max-width: 1220px) {
+  .main-menu nav ul li {
+    margin: 0 5px;
+}
+.logo-area {
+    margin-right: 0;
+}
+img.logo {
+    width: 150px;
+}
+.btn-border__white {
+    margin-left: 0;
+    margin-right: 0;
+}
+a.btn.btn-border__white.d-block.d-lg-none {
+    padding: 10px;
+}
+.header-left.d-flex.align-items-center {
+    justify-content: space-between;
+    width: 100%;
+}
+.header-button {
+    width: 200px;
+}
+}
+
+/* Large Mobile . */
+@media only screen and  (max-width: 767px) {
+   .about-inner {
+    padding-left: 20%;
+}
+
+}

@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1AF7989-DD9B-45F2-909A-86256B93459C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Liquex_empty_</RootNamespace>
+    <AssemblyName>Liquex%28empty%29</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contact.html" />
+    <Content Include="cookie.html" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\custom-animation.css" />
+    <Content Include="css\default-index.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\fontawesome-all.min.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\meanmenu.css" />
+    <Content Include="css\msdropdown\dd.css" />
+    <Content Include="css\msdropdown\flags.css" />
+    <Content Include="css\msdropdown\skin2.css" />
+    <Content Include="css\msdropdown\sprite.css" />
+    <Content Include="css\owl.carousel.min.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style-index.css" />
+    <Content Include="css\style-trader.css" />
+    <Content Include="fonts\fa-brands-400.svg" />
+    <Content Include="fonts\fa-regular-400.svg" />
+    <Content Include="fonts\fa-solid-900.svg" />
+    <Content Include="frontend\css\ajax-loader.html" />
+    <Content Include="frontend\css\animate.css" />
+    <Content Include="frontend\css\bootstrap.min.css" />
+    <Content Include="frontend\css\fonts\revicons\revicons90c690c6-2.html" />
+    <Content Include="frontend\css\fonts\revicons\revicons90c690c6.html" />
+    <Content Include="frontend\css\fonts\slick.html" />
+    <Content Include="frontend\css\slick-theme.css" />
+    <Content Include="frontend\css\slick.css" />
+    <Content Include="frontend\css\slider\settings.css" />
+    <Content Include="frontend\css\style.css" />
+    <Content Include="frontend\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="frontend\images\coin-icon\bitcoin.png" />
+    <Content Include="frontend\images\main-slider\slider3\b-left-right.png" />
+    <Content Include="frontend\images\main-slider\slider3\b-left.png" />
+    <Content Include="frontend\images\main-slider\slider3\b-right.png" />
+    <Content Include="frontend\images\main-slider\slider3\earth-2.png" />
+    <Content Include="frontend\images\main-slider\slider3\map-marker.png" />
+    <Content Include="frontend\images\main-slider\slider3\shadow-bg1.png" />
+    <Content Include="frontend\images\main-slider\slider3\slide1.jpg" />
+    <Content Include="frontend\img\aboutus education.png" />
+    <Content Include="frontend\img\aboutus overview.png" />
+    <Content Include="frontend\img\aboutus security.png" />
+    <Content Include="frontend\img\admin.png" />
+    <Content Include="frontend\img\ai and analysis.png" />
+    <Content Include="frontend\img\call-to-action-bg.jpg" />
+    <Content Include="frontend\img\decentralised menu.png" />
+    <Content Include="frontend\img\how trade chart.png" />
+    <Content Include="frontend\img\how trade chart2.png" />
+    <Content Include="frontend\img\icon-1.png" />
+    <Content Include="frontend\img\icon-2.png" />
+    <Content Include="frontend\img\icon-3.png" />
+    <Content Include="frontend\img\icon-4.png" />
+    <Content Include="frontend\img\icon-5.png" />
+    <Content Include="frontend\img\icon-6.png" />
+    <Content Include="frontend\img\icons\payment\american-express.png" />
+    <Content Include="frontend\img\icons\payment\maestro.png" />
+    <Content Include="frontend\img\icons\payment\mastercard.png" />
+    <Content Include="frontend\img\icons\payment\paypal.png" />
+    <Content Include="frontend\img\icons\payment\visa.png" />
+    <Content Include="frontend\img\link exchanges.png" />
+    <Content Include="frontend\img\menu.png" />
+    <Content Include="frontend\img\site-logo.png" />
+    <Content Include="frontend\img\tr-circle-bg.png" />
+    <Content Include="frontend\img\trade with anyone large.png" />
+    <Content Include="frontend\img\trade with anyone.png" />
+    <Content Include="frontend\img\welcome-bg.png" />
+    <Content Include="frontend\index.html" />
+    <Content Include="frontend\js\bootstrap.min.js" />
+    <Content Include="frontend\js\jquery.min.js" />
+    <Content Include="frontend\js\slick.min.js" />
+    <Content Include="frontend\js\slider\jquery.themepunch.revolution.min.js" />
+    <Content Include="frontend\js\slider\jquery.themepunch.tools.min.js" />
+    <Content Include="frontend\js\slider\rev-script-1.js" />
+    <Content Include="frontend\js\slider\revolution-plugin.js" />
+    <Content Include="frontend\js\wow.min.js" />
+    <Content Include="img\about\about__thumb.png" />
+    <Content Include="img\about\button1.png" />
+    <Content Include="img\about\button2.png" />
+    <Content Include="img\about\mobile-mockup.png" />
+    <Content Include="img\bg-shape.png" />
+    <Content Include="img\bg\about.png" />
+    <Content Include="img\bg\hero_bg_1.png" />
+    <Content Include="img\bg\login-bg.png" />
+    <Content Include="img\blank.png" />
+    <Content Include="img\breadcrumb.jpg" />
+    <Content Include="img\calendar icon.png" />
+    <Content Include="img\contacpage\contactHero.jpg" />
+    <Content Include="img\contactHero.jpg" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\hero\hero_thumb.png" />
+    <Content Include="img\hero\hero__dollar__icon.png" />
+    <Content Include="img\icon-noScript.gif" />
+    <Content Include="img\icons\bitcoin.png" />
+    <Content Include="img\icons\blankid.png" />
+    <Content Include="img\icons\ctexmailinglist.png" />
+    <Content Include="img\icons\jquery-te.png" />
+    <Content Include="img\icons\notification-cancel.png" />
+    <Content Include="img\icons\notification-edit.png" />
+    <Content Include="img\icons\notification.png" />
+    <Content Include="img\icons\socialmedia\ctexfacebook.png" />
+    <Content Include="img\icons\socialmedia\ctexinstagram.png" />
+    <Content Include="img\icons\socialmedia\ctexlinkedin.png" />
+    <Content Include="img\icons\socialmedia\ctexmedium.png" />
+    <Content Include="img\icons\socialmedia\ctextelegram.png" />
+    <Content Include="img\icons\socialmedia\ctextwitter.png" />
+    <Content Include="img\icons\socialmedia\index.html" />
+    <Content Include="img\icons\socialmedia\linkedin.png" />
+    <Content Include="img\icons\un-verified-1.png" />
+    <Content Include="img\icons\un-verified-2.png" />
+    <Content Include="img\icons\un-verified-3.png" />
+    <Content Include="img\icon\arrow-icon.svg" />
+    <Content Include="img\icon\arrow-icon2.svg" />
+    <Content Include="img\icon\bar-icon.svg" />
+    <Content Include="img\icon\bitcoin.png" />
+    <Content Include="img\icon\btc-icon.svg" />
+    <Content Include="img\icon\config-icon1.svg" />
+    <Content Include="img\icon\config-icon2.svg" />
+    <Content Include="img\icon\config-icon3.svg" />
+    <Content Include="img\icon\configuration-icon.svg" />
+    <Content Include="img\icon\contactpageIcon1.png" />
+    <Content Include="img\icon\contactpageIcon2.png" />
+    <Content Include="img\icon\contactpageIcon3.png" />
+    <Content Include="img\icon\contactpageIcon4.png" />
+    <Content Include="img\icon\copyright.png" />
+    <Content Include="img\icon\dashboard-icon.svg" />
+    <Content Include="img\icon\eth.svg" />
+    <Content Include="img\icon\kyc-icon.svg" />
+    <Content Include="img\icon\kyc-veri-icon1.svg" />
+    <Content Include="img\icon\kyc-veri-icon2.svg" />
+    <Content Include="img\icon\membership-icon.svg" />
+    <Content Include="img\icon\notification-icon.svg" />
+    <Content Include="img\icon\portfolio-management-icon.svg" />
+    <Content Include="img\icon\pr-mn1.svg" />
+    <Content Include="img\icon\pr-mn2.svg" />
+    <Content Include="img\icon\pr-mn3.svg" />
+    <Content Include="img\icon\pr-mn4.svg" />
+    <Content Include="img\icon\pr-mn5.svg" />
+    <Content Include="img\icon\pr-mn6.svg" />
+    <Content Include="img\icon\pr-mn7.svg" />
+    <Content Include="img\icon\security-icon.svg" />
+    <Content Include="img\icon\security1.svg" />
+    <Content Include="img\icon\security2.svg" />
+    <Content Include="img\icon\security3.svg" />
+    <Content Include="img\icon\solutions-icon-01.png" />
+    <Content Include="img\icon\solutions-icon-02.png" />
+    <Content Include="img\icon\solutions-icon-03.png" />
+    <Content Include="img\icon\solutions-icon-04.png" />
+    <Content Include="img\icon\solutions-icon-05.png" />
+    <Content Include="img\icon\solutions-icon-06.png" />
+    <Content Include="img\icon\support-icon.svg" />
+    <Content Include="img\icon\trade-icon.svg" />
+    <Content Include="img\icon\transaction-history-icon.svg" />
+    <Content Include="img\icon\unverified-icon.svg" />
+    <Content Include="img\icon\user-icon.svg" />
+    <Content Include="img\icon\user-id-icon.svg" />
+    <Content Include="img\icon\user-login-icon.svg" />
+    <Content Include="img\icon\video-icon.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo\footer-logo.png" />
+    <Content Include="img\logo\login-logo.jpg" />
+    <Content Include="img\logo\logo.png" />
+    <Content Include="img\logo\logo.svg" />
+    <Content Include="img\picon.png" />
+    <Content Include="img\platform\platform-bg-right.png" />
+    <Content Include="img\platform\platform-bg.png" />
+    <Content Include="img\platform\platform-thumb.png" />
+    <Content Include="img\platform\platform-thumb2.png" />
+    <Content Include="img\platform\platform-thumb3.png" />
+    <Content Include="img\platform\platform-thumb4.png" />
+    <Content Include="img\platform\platform.png" />
+    <Content Include="img\shape\newslettershape.png" />
+    <Content Include="img\shape\shape-overlay.png" />
+    <Content Include="img\started-today.png" />
+    <Content Include="img\trader\abcc-icon.png" />
+    <Content Include="img\trader\arrow-down-sign-to-navigate.png" />
+    <Content Include="img\trader\arrow-down-sign-to-navigate1.png" />
+    <Content Include="img\trader\arrow.png" />
+    <Content Include="img\trader\Buy.png" />
+    <Content Include="img\trader\CEX-exchange.png" />
+    <Content Include="img\trader\Cex.png" />
+    <Content Include="img\trader\coinbene-exchange.png" />
+    <Content Include="img\trader\gateio-icon.png" />
+    <Content Include="img\trader\Group9.png" />
+    <Content Include="img\trader\gvarwef.png" />
+    <Content Include="img\trader\Image.jpg" />
+    <Content Include="img\trader\image.png" />
+    <Content Include="img\trader\lbank-icon.png" />
+    <Content Include="img\trader\livecoin-exchange.png" />
+    <Content Include="img\trader\Livecoin.png" />
+    <Content Include="img\trader\poloniex-exchange.png" />
+    <Content Include="img\trader\Rounded Rectangle 6 copy 2.png" />
+    <Content Include="img\trader\Sell.png" />
+    <Content Include="img\trader\Squres.png" />
+    <Content Include="img\trader\Binance.png" />
+    <Content Include="img\trader\Bittrex.png" />
+    <Content Include="img\trader\Kraken.png" />
+    <Content Include="img\trader\Coinbase.png" />
+    <Content Include="img\trader\Untitled-5.png" />
+    <Content Include="img\trader\V4-Website-Sorce_02.png" />
+    <Content Include="img\trader\V4-Website-Sorce_05.png" />
+    <Content Include="img\trader\V4-Website-Sorce_08.png" />
+    <Content Include="img\trader\V4-Website-Sorce_11.png" />
+    <Content Include="img\trader\V4-Website-Sorce_17.png" />
+    <Content Include="img\trader\V4-Website-Sorce_20.png" />
+    <Content Include="img\trader\V4-Website-Sorce_22.png" />
+    <Content Include="img\trader\V4-Website-Sorce_25.png" />
+    <Content Include="img\trader\V4-Website-Sorce_28.png" />
+    <Content Include="img\trader\V4-Website-Sorce_30.png" />
+    <Content Include="img\trader\V4-Website-Sorce_33.png" />
+    <Content Include="img\trader\V4-Website-Sorce_39.png" />
+    <Content Include="img\trader\V4-Website-Sorce_43.png" />
+    <Content Include="img\trader\V4-Website-Sorce_47.png" />
+    <Content Include="img\trader\V4-Website-Sorce_50.png" />
+    <Content Include="img\trader\V4-Website-Sorce_52.png" />
+    <Content Include="img\trader\V4-Website-Sorce_54.png" />
+    <Content Include="img\trader\V4-Website-Sorce_57.png" />
+    <Content Include="img\trader\V4-Website-Sorce_59.png" />
+    <Content Include="img\trader\V4-Website-Sorce_77.png" />
+    <Content Include="img\trader\V4-Website-Sorce_81.png" />
+    <Content Include="img\trader\V4-Website-Sorce_83.png" />
+    <Content Include="img\trader\V4-Website-Sorce_87.png" />
+    <Content Include="img\trader\V4-Website-Sorce_90.png" />
+    <Content Include="img\trader\V4-Website-Sorce_92.png" />
+    <Content Include="img\trader\V4-Website-Sorce_94.png" />
+    <Content Include="img\trader\V4-Website-Sorce_96.png" />
+    <Content Include="img\trazado.png" />
+    <Content Include="img\verified1.png" />
+    <Content Include="index.html" />
+    <Content Include="js\ajax-form.js" />
+    <Content Include="js\Chart.bundle.js" />
+    <Content Include="js\Chart.bundle.min.js" />
+    <Content Include="js\chart.js" />
+    <Content Include="js\Chart.min.js" />
+    <Content Include="js\Chartold.js" />
+    <Content Include="js\chartreplace.js" />
+    <Content Include="js\common.js" />
+    <Content Include="js\common2.js" />
+    <Content Include="js\config.js" />
+    <Content Include="js\exchange.js" />
+    <Content Include="js\file.js" />
+    <Content Include="js\imagesloaded.pkgd.min.js" />
+    <Content Include="js\init.js" />
+    <Content Include="js\isotope.pkgd.min.js" />
+    <Content Include="js\jquery-3.3.1.min.js" />
+    <Content Include="js\jquery.cookie.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.meanmenu.min.js" />
+    <Content Include="js\jquery.scrollUp.min.js" />
+    <Content Include="js\login.js" />
+    <Content Include="js\one-page-nav-min.js" />
+    <Content Include="js\portfolio.js" />
+    <Content Include="js\msdropdown\jquery.dd.js" />
+    <Content Include="js\msdropdown\jquery.dd.min.js" />
+    <Content Include="js\notification.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="js\popper.min.js" />
+    <Content Include="js\prices.js" />
+    <Content Include="js\tradeData.js" />
+    <Content Include="js\transfer.js" />
+    <Content Include="js\user.js" />
+    <Content Include="js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="js\vendor\modernizr-3.5.0.min.js" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\aboutus overview.psd" />
+    <Content Include="img\ai and analysis.psd" />
+    <Content Include="img\decentralised menu.psd" />
+    <Content Include="img\how trade chart.psd" />
+    <Content Include="img\how trade chart2.psd" />
+    <Content Include="img\link exchanges.psd" />
+    <Content Include="fonts\fa-brands-400.eot" />
+    <Content Include="fonts\fa-brands-400.ttf" />
+    <Content Include="fonts\fa-brands-400.woff" />
+    <Content Include="fonts\fa-brands-400.woff2" />
+    <Content Include="fonts\fa-regular-400.eot" />
+    <Content Include="fonts\fa-regular-400.ttf" />
+    <Content Include="fonts\fa-regular-400.woff" />
+    <Content Include="fonts\fa-regular-400.woff2" />
+    <Content Include="fonts\fa-solid-900.eot" />
+    <Content Include="fonts\fa-solid-900.ttf" />
+    <Content Include="fonts\fa-solid-900.woff" />
+    <Content Include="fonts\fa-solid-900.woff2" />
+    <Content Include="frontend\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="frontend\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="frontend\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="frontend\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="frontend\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="frontend\img\aboutus overview.psd" />
+    <Content Include="frontend\img\ai and analysis.psd" />
+    <Content Include="frontend\img\decentralised menu.psd" />
+    <Content Include="frontend\img\how trade chart.psd" />
+    <Content Include="frontend\img\how trade chart2.psd" />
+    <Content Include="frontend\img\link exchanges.psd" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\client-style.css" />
+    <Content Include="css\dark-purple.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\pricing-table-style.css" />
+    <Content Include="css\ribbon-style.css" />
+    <Content Include="css\slick-theme.css" />
+    <Content Include="css\slick.css" />
+    <Content Include="css\slider\settings.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\toastr.min.css" />
+    <Content Include="img\aboutus education.png" />
+    <Content Include="img\aboutus overview.png" />
+    <Content Include="img\aboutus security.png" />
+    <Content Include="img\admin.png" />
+    <Content Include="img\ai and analysis.png" />
+    <Content Include="img\bitcoin.png" />
+    <Content Include="img\call-to-action-bg.jpg" />
+    <Content Include="img\captcha_test.png" />
+    <Content Include="img\contact-icon.png" />
+    <Content Include="img\decentralised menu.png" />
+    <Content Include="img\google-authenticator.png" />
+    <Content Include="img\how trade chart.png" />
+    <Content Include="img\how trade chart2.png" />
+    <Content Include="img\icon-1.png" />
+    <Content Include="img\icon-2.png" />
+    <Content Include="img\icon-3.png" />
+    <Content Include="img\icon-4.png" />
+    <Content Include="img\icon-5.png" />
+    <Content Include="img\icon-6.png" />
+    <Content Include="img\icons\about.png" />
+    <Content Include="img\icons\as.png" />
+    <Content Include="img\icons\audit.png" />
+    <Content Include="img\icons\btc-icon.png" />
+    <Content Include="img\icons\configuration.png" />
+    <Content Include="img\icons\cp.png" />
+    <Content Include="img\icons\dashboard.png" />
+    <Content Include="img\icons\eth-icon.png" />
+    <Content Include="img\icons\history.png" />
+    <Content Include="img\icons\logout.png" />
+    <Content Include="img\icons\payment\american-express.png" />
+    <Content Include="img\icons\payment\maestro.png" />
+    <Content Include="img\icons\payment\mastercard.png" />
+    <Content Include="img\icons\payment\paypal.png" />
+    <Content Include="img\icons\payment\visa.png" />
+    <Content Include="img\icons\pending.png" />
+    <Content Include="img\icons\PI.png" />
+    <Content Include="img\icons\security.png" />
+    <Content Include="img\icons\un-verified.png" />
+    <Content Include="img\icons\user-id.png" />
+    <Content Include="img\jquery-te.png" />
+    <Content Include="img\link exchanges.png" />
+    <Content Include="img\login-icon.png" />
+    <Content Include="img\main-slider\slider\b-left.png" />
+    <Content Include="img\main-slider\slider\b-right.png" />
+    <Content Include="img\main-slider\slider\earth-2.png" />
+    <Content Include="img\main-slider\slider\map-marker.png" />
+    <Content Include="img\main-slider\slider\shadow-bg1.png" />
+    <Content Include="img\main-slider\slider\slide1.jpg" />
+    <Content Include="img\menu.png" />
+    <Content Include="img\refresh.png" />
+    <Content Include="img\register-icon.png" />
+    <Content Include="img\site-logo.png" />
+    <Content Include="img\tr-circle-bg.png" />
+    <Content Include="img\trade with anyone large.png" />
+    <Content Include="img\trade with anyone.png" />
+    <Content Include="img\welcome-bg.png" />
+    <Content Include="js\app.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-te-1.4.0.min.js" />
+    <Content Include="js\jquery.form.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\slick.min.js" />
+    <Content Include="js\slider\jquery.themepunch.revolution.min.js" />
+    <Content Include="js\slider\jquery.themepunch.tools.min.js" />
+    <Content Include="js\slider\rev-script-1.js" />
+    <Content Include="js\slider\revolution-plugin.js" />
+    <Content Include="js\toastr.min.js" />
+    <Content Include="js\validation.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="pages\aboutus.html" />
+    <Content Include="pages\configuration.html" />
+    <Content Include="pages\dashboard.html" />
+    <Content Include="pages\exchange_settings.html" />
+    <Content Include="pages\fees.html" />
+    <Content Include="pages\howit.html" />
+    <Content Include="pages\kyc.html" />
+    <Content Include="pages\membership.html" />
+    <Content Include="pages\menu.html" />
+    <Content Include="pages\notifications.html" />
+    <Content Include="pages\portfolio.html" />
+    <Content Include="pages\security.html" />
+    <Content Include="pages\support.html" />
+    <Content Include="pages\ticket_history.html" />
+    <Content Include="pages\trader.html" />
+    <Content Include="pages\transaction.html" />
+    <Content Include="platform.html" />
+    <Content Include="privacy.html" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="signin.html" />
+    <Content Include="signup.html" />
+    <Content Include="signupconfirmation.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\jquery-te-1.4.0.css" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50440</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50440/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

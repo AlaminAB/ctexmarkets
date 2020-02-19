@@ -1,0 +1,258 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CTEX Markets</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- CSS here -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/meanmenu.css">
+    <link rel="stylesheet" href="../css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/custom-animation.css">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/toastr.min.css" />
+</head>
+<body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <!-- Add your site or application content here -->
+    <!-- Header -->
+    <header></header>
+    <!-- Header End -->
+    <!-- Main -->
+    <main>
+        <!-- Forgot Password Modal -->
+        <div class="modal  fade show" id="Forgot-pass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title pull-left"> Forgot your password?</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <label for="inputUsernameEmail">Email :</label>
+                        <input type="email" name="email_id_forgot" id="email_id_forgot" onkeypress="is_enterforgot(event)" class="form-control" placeholder="Email Address" style="background-color: #eee;">
+                    </div>
+                    <div class="modal-footer">
+                        <button onclick="forgotpassword()" class="btn" id="forgotid"><span>Forgot Password </span><i class="fa fa-angle-right"></i> <span style="display: none" id="forloader"><i class="fa fa-spinner fa-spin"></i></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="login-area">
+            <div class="login-bg" style="background-image: url(../img/bg/login-bg.png);"></div>
+            <div class="container-fluid p-0 fix">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="login-form-wrap white-bg text-center">
+                            <div class="lgoin-caption">
+                                <h2>WELCOME TO</h2>
+                                <a href="index.html"><img src="../img/logo/login-logo.jpg" alt=""></a>
+                                <p>Sign In to access your trading account</p>
+                            </div>
+                            <!--  -->
+                            <div class="login-form">
+                                <form action="#" method="POST">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="form-box email-icon mb-30">
+                                                <input type="email" id="email_id" name="email_id" placeholder="Email" onkeypress="is_enter(event)">
+                                                <i class="far fa-user"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-box password-icon mb-30">
+                                                <input type="password" id="password" name="password" placeholder="Password" onkeypress="is_enter(event)">
+                                                <i class="fas fa-eye"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-box mb-30">
+                                                <input class="input-captcha" type="text" id="captcha" name="captcha" placeholder="Captcha" onkeypress="is_enter(event)">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="form-box mb-30">
+                                                <input class="input-captha__show" type="text" name="Captcha-number" placeholder="LP9WazER">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="login">
+                                                <div class="log-ing-btn">
+                                                    <button class="btn btn-default btn_submit" name="Blogin" id="Blogin" onclick="signin()" type="button">Sign In<span style="display: none" id="loader" name="loader"><i class="fa fa-spinner fa-spin"></i></span></button>
+                                                </div>
+                                                <span><a data-toggle="modal" data-target="#Forgot-pass" style="cursor:pointer">Forgot Password?</a></span>
+                                                <p>If you don't have an account already please Sign Up</p>
+                                                <div class="sig-up-btn">
+                                                    <a href="signup.html" class="sinup-btn">Sign Up Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-6 d-flex align-items-center">
+                        <div class="login-cover">
+                            <div class="login-logo text-center">
+                                <a href="index.html"><img src="../img/logo/login-logo.jpg" alt="Login"></a>
+                                <p>Don't forget to check the URL in your browser - If it doesn't say CTEXMarkets.com contact us.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main End -->
+    <!-- Footer -->
+    <footer></footer>
+    <!-- Footer End -->
+    <!-- JS here -->
+
+    <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/one-page-nav-min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/ajax-form.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery.meanmenu.min.js"></script>
+    <script src="../js/plugins.js"></script>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/common2.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/toastr.min.js"></script>
+    <script src="../js/validation.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/login.js"></script>
+
+    <script>
+
+        function is_enter(event) {
+            if (!event.altKey && !event.ctrlKey && event.keyCode == 13) {
+                signin();
+            }
+        }
+
+
+        function signin() {
+            var data = $('#login').serialize();
+            var username = $('#email_id').val();
+            var password = $('#password').val();
+            var captcha = $('#captcha').val();
+            if (username.trim() == "") {
+                toastr.warning('Please Enter Email Address  Or Username !');
+                $('#email_id').focus();
+                return false;
+            }
+            else if (password.trim() == "") {
+                toastr.warning('Please Enter Password !');
+                $('#password').focus();
+                return false;
+            }
+
+            else if (captcha == '') {
+                toastr.warning("Please Verify Captcha !");
+                $('#captcha').focus();
+                return false;
+            }
+            else {
+                var res = login(username, password, captcha, loginCallback, function () {
+                    $('#loader').show();
+                    $('#Blogin').prop('disabled', true);
+                });
+
+                return false;
+            }
+        }
+
+        function loginCallback(response) {
+            var res = {};
+            if (response.data && response.data.SessionKey) {
+               // $.cookie(config.COOKIE_TOKEN_NAME, response.data.SessionKey);
+               // $.cookie(config.COOKIE_USER_ID, response.data.UserId);
+                toastr.success(response.data.Message);
+                window.location = config.DASHBOARD_PAGE + "?" + config.COOKIE_TOKEN_NAME + '=' + response.data.SessionKey +
+                    '&' + config.COOKIE_USER_ID + '=' + response.data.UserId;
+            }
+            else {
+                $('#Blogin').prop('disabled', false);
+                toastr.error(response.data.Message);
+            }
+            $('#loader').hide();
+        }
+        function factor_enter(event) {
+            if (!event.altKey && !event.ctrlKey && event.keyCode == 13) {
+                verifyFactor();
+            }
+        }
+        function is_enterforgot(event) {
+            if (!event.altKey && !event.ctrlKey && event.keyCode == 13) {
+                forgotpassword();
+            }
+        }
+        function forgotpassword() {
+            var email_id_forgot = $('#email_id_forgot').val();
+            if (email_id_forgot == '') {
+
+                toastr.warning("Please Enter Email Address !");
+                $('#email_id_forgot').focus();
+                return false;
+            }
+            else if (email_id_forgot != '') {
+                if (!IsEmail(email_id_forgot)) {
+                    toastr.warning('Please Enter Valid Email Address !');
+                    $('#email_id_forgot').focus();
+                    return false;
+                }
+                else {
+                    $('#forloader').show();
+                    $('#forgotid').prop('disabled', true);
+
+                    var res = forgotPassword({
+                        email: email_id_forgot
+                    });
+
+                    if (res.Success) {
+                        $('#forloader').hide();
+                        $('#forgotid').prop('disabled', false);
+
+                        $('#Forgot-pass').hide();
+                        toastr.success("Password was sent to your email.");
+                        setTimeout(function () { window.location = ''; }, 2000);
+
+                    }
+                    else {
+                        $('#forgotid').prop('disabled', false);
+                        $('#forloader').hide();
+                        toastr.warning(res.Message);
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>
